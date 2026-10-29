@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chisom's Space</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080d25;
+      color: white;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 25px 8%;
+      background: #111b3d;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #80eaff;
+      font-size: 2rem;
+    }
+
+    nav a {
+      color: #ffe58a;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 70px 8%;
+      text-align: center;
+      background: linear-gradient(135deg, #101b48, #5b3190);
+    }
+
+    .hero h2 {
+      font-size: 2.4rem;
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    section {
+      padding: 45px 8%;
+    }
+
+    section h2 {
+      color: #80eaff;
+      margin-bottom: 18px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .project {
+      background: #17244a;
+      border: 1px solid #5265a8;
+      border-radius: 14px;
+      padding: 22px;
+    }
+
+    .project h3 {
+      color: #ffe58a;
+      margin-bottom: 10px;
+    }
+
+    .tools {
+      color: #b9f6ca;
+      font-size: 0.9rem;
+      margin-top: 12px;
+    }
+
+    .contact {
+      background: #14203f;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      color: #c7d2fe;
+    }
+
+    @media (max-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ Chisom's Space ✨</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h2>Exploring My Universe 🚀</h2>
+      <p>
+        Welcome to my little corner of the internet!
+        Join me as I explore Geography, Space, and Technology.
+      </p>
+    </div>
+
+    <section id="about">
+      <h2>🌍 About Me</h2>
+      <p>
+        I am an SS1 science student who enjoys studying Geography
+        and learning about the Universe and planetary bodies.
+        I am curious about our planet, natural disasters, and space.
+        I also enjoy learning new things about technology.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>💡 My Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>My Portfolio</h3>
+          <p>A website introducing me, my interests, and my learning journey.</p>
+          <p class="tools">Tools: HTML and CSS</p>
+        </div>
+
+        <div class="project">
+          <h3>Weather and Climate Map</h3>
+          <p>A project idea to explore local weather patterns and climate data.</p>
+          <p class="tools">Tools: Geography and data</p>
+        </div>
+
+        <div class="project">
+          <h3>Space Exploration</h3>
+          <p>A learning project about planets, stars, and the wider Universe.</p>
+          <p class="tools">Tools: Research and technology</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>📬 Contact</h2>
+      <p>Thanks for visiting my portfolio!</p>
+      <p>You can explore my projects and follow my learning journey.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with curiosity by Chisom ✨</p>
+  </footer>
+</body>
+      </html>
+      
