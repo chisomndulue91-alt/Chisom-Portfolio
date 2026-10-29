@@ -1,0 +1,90 @@
+
+/* Chisom's Space website design */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080d25;
+  color: white;
+  line-height: 1.7;
+}
+
+header {
+  padding: 25px 8%;
+  background: #111b3d;
+  text-align: center;
+}
+
+header h1 {
+  color: #80eaff;
+  font-size: 2rem;
+}
+
+nav a {
+  color: #ffe58a;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 45px 8%;
+}
+
+section h2 {
+  color: #80eaff;
+  margin-bottom: 18px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project {
+  background: #17244a;
+  border: 1px solid #5265a8;
+  border-radius: 14px;
+  padding: 22px;
+}
+
+.project h3 {
+  color: #ffe58a;
+  margin-bottom: 10px;
+}
+
+.tools {
+  color: #b9f6ca;
+  font-size: 0.9rem;
+  margin-top: 12px;
+}
+
+.contact {
+  background: #14203f;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #c7d2fe;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+}
